@@ -1,0 +1,39 @@
+{
+    "name": "datatables.net-autofill-zf",
+    "description": "AutoFill for DataTables with styling for [Zurb Foundation](http://foundation.zurb.com/)",
+    "main": [
+        "js/autoFill.foundation.js",
+        "css/autoFill.foundation.css"
+    ],
+    "keywords": [
+        "autofill",
+        "excel",
+        "DataTables",
+        "jQuery",
+        "table",
+        "Foundation"
+    ],
+    "dependencies": {
+        "jquery": ">=1.7",
+        "datatables.net-zf": ">=1.10.9",
+        "datatables.net-autofill": ">=2.0.0"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
+    "authors": [
+        {
+            "name": "SpryMedia Ltd",
+            "homepage": "https://datatables.net"
+        }
+    ],
+    "homepage": "https://datatables.net",
+    "license": "MIT"
+}
