@@ -19,7 +19,7 @@ npm install datatables.net-autofill-zf
 
 ```
 var $ = require( 'jquery' );
-require( 'datatables.net-autofill-zf' )( $ );
+require( 'datatables.net-autofill-zf' )( window, $ );
 ```
 
 ### bower
