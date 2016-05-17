@@ -6,7 +6,8 @@
         "js/autoFill.foundation.js",
         "css/autoFill.foundation.css"
     ],
-    "main": "./js/autoFill.foundation.js",
+    "main": "js/autoFill.foundation.js",
+    "style": "css/autoFill.foundation.css",
     "keywords": [
         "autofill",
         "excel",
