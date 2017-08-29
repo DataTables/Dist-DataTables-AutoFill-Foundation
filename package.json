@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-autofill-zf",
-    "version": "2.2.0",
+    "version": "2.2.1",
     "description": "AutoFill for DataTables with styling for [Zurb Foundation](http://foundation.zurb.com/)",
     "files": [
         "js/autoFill.foundation.js",
@@ -25,8 +25,8 @@
     },
     "dependencies": {
         "jquery": ">=1.7",
-        "datatables.net-zf": ">=1.10.9",
-        "datatables.net-autofill": ">=2.0.0"
+        "datatables.net-zf": "^1.10.15",
+        "datatables.net-autofill": "2.2.1"
     },
     "repository": {
         "type": "git",
