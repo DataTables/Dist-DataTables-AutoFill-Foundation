@@ -3,6 +3,7 @@
     "description": "AutoFill for DataTables with styling for [Foundation](https://get.foundation/)",
     "main": "js/autoFill.foundation.js",
     "style": "css/autoFill.foundation.css",
+    "types": "./types/autoFill.foundation.d.ts",
     "version": "2.3.6",
     "files": [
         "css/**/*.css",
