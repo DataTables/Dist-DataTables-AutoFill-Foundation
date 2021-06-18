@@ -4,14 +4,14 @@
     "main": "js/autoFill.foundation.js",
     "style": "css/autoFill.foundation.css",
     "types": "./types/autoFill.foundation.d.ts",
-    "version": "2.3.9",
+    "version": "2.3.7",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "AutoFill",
-        "Excel",
+ "Excel",
         "Foundation",
         "Datatables",
         "jQuery",
