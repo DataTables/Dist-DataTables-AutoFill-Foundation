@@ -4,14 +4,15 @@
     "main": "js/autoFill.foundation.js",
     "style": "css/autoFill.foundation.css",
     "types": "./types/autoFill.foundation.d.ts",
-    "version": "2.3.9",
+    "version": "2.3.7",
     "files": [
         "css/**/*.css",
-        "js/**/*.js"
+        "js/**/*.js",
+        "types/**/*.d.ts"
     ],
     "keywords": [
         "AutoFill",
-        "Excel",
+ "Excel",
         "Foundation",
         "Datatables",
         "jQuery",
@@ -21,7 +22,7 @@
     ],
     "dependencies": {
         "datatables.net-autofill": ">=2.3.7",
-        "datatables.net-zf": ">=1.10.25",
+        "datatables.net-zf": ">=1.11.3",
         "jquery": ">=1.7"
     },
     "moduleType": [
