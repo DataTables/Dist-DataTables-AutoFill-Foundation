@@ -1,0 +1,1 @@
+import $ from"jquery";import DataTable from"datatables.net-zf";import AutoFill from"datatables.net-autofill";DataTable.AutoFill.classes.btn="button tiny";export default DataTable;
