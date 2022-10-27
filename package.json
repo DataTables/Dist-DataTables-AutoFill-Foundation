@@ -4,7 +4,7 @@
     "main": "js/autoFill.foundation.js",
     "module": "js/autoFill.foundation.mjs",
     "style": "css/autoFill.foundation.css",
-    "types": "./types/autoFill.foundation.d.ts",
+    "types": "./types/types.d.ts",
     "version": "2.4.0",
     "files": [
         "css/**/*.css",
