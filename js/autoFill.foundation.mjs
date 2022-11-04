@@ -3,7 +3,9 @@
  * ©2015 SpryMedia Ltd - datatables.net/license
  */
 
-import DataTable from '';
+import $ from 'jquery';
+import DataTable from 'datatables.net-zf';
+import AutoFill from 'datatables.net-autofill';
 
 
 
