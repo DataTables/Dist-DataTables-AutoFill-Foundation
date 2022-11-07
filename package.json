@@ -5,7 +5,7 @@
     "module": "js/autoFill.foundation.mjs",
     "style": "css/autoFill.foundation.css",
     "types": "./types/types.d.ts",
-    "version": "2.4.0",
+    "version": "2.5.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -14,7 +14,7 @@
     ],
     "keywords": [
         "AutoFill",
- "Excel",
+        "Excel",
         "Foundation",
         "Datatables",
         "jQuery",
