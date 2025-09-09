@@ -5,7 +5,7 @@
     "module": "js/autoFill.foundation.mjs",
     "style": "css/autoFill.foundation.css",
     "types": "./types/autoFill.foundation.d.ts",
-    "version": "2.7.0",
+    "version": "2.7.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -23,8 +23,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-autofill": "2.7.0",
-        "datatables.net-zf": ">=1.11",
+        "datatables.net-autofill": "2.7.1",
+        "datatables.net-zf": "1.11 - 2",
         "jquery": ">=1.7"
     },
     "moduleType": [
