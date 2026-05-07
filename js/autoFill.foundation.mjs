@@ -1,16 +1,13 @@
-/*! Foundation integration for DataTables' AutoFill
- * ©2015 SpryMedia Ltd - datatables.net/license
+/*! AutoFill Foundation styling 3.0.0-beta.1 for DataTables
+ * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
-import jQuery from 'jquery';
 import DataTable from 'datatables.net-zf';
 import AutoFill from 'datatables.net-autofill';
 
-// Allow reassignment of the $ variable
-let $ = jQuery;
 
-
-DataTable.AutoFill.classes.btn = 'button tiny';
+DataTable.AutoFill.classes.btn = 'button';
 
 
 export default DataTable;
+
