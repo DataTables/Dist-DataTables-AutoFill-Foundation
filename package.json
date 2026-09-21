@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-autofill-zf",
     "description": "AutoFill for DataTables with styling for [Foundation](https://get.foundation/)",
-    "main": "js/autoFill.foundation.js",
-    "module": "js/autoFill.foundation.mjs",
-    "style": "css/autoFill.foundation.css",
+    "main": "./js/autoFill.foundation.js",
+    "module": "./js/autoFill.foundation.mjs",
+    "style": "./css/autoFill.foundation.css",
     "types": "./types/autoFill.foundation.d.ts",
     "version": "3.0.1",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "AutoFill",
@@ -35,5 +34,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/AutoFill.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/autoFill.foundation.d.ts",
+            "import": "./js/autoFill.foundation.mjs",
+            "default": "./js/autoFill.foundation.mjs",
+            "require": "./js/autoFill.foundation.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/autoFill.foundation.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }

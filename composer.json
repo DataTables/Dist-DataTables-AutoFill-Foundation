@@ -1,6 +1,6 @@
 {
     "name": "datatables.net/datatables.net-autofill-zf",
-    "description": "AutoFill for DataTables with styling for [Foundation](https://get.foundation/)",
+    "description": "AutoFill for DataTables with styling for Foundation",
     "support": {
         "forum": "https://datatables.net/forums",
         "source": "https://github.com/DataTables/Dist-DataTables-AutoFill-Foundation"
