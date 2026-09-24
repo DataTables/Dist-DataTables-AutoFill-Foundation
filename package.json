@@ -38,9 +38,10 @@
     "exports": {
         ".": {
             "types": "./types/autoFill.foundation.d.ts",
+            "style": "./css/autoFill.foundation.css",
             "import": "./js/autoFill.foundation.mjs",
-            "default": "./js/autoFill.foundation.mjs",
-            "require": "./js/autoFill.foundation.js"
+            "require": "./js/autoFill.foundation.js",
+            "default": "./js/autoFill.foundation.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
